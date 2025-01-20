@@ -1,4 +1,4 @@
-# WRF-output-variables
+# WRF output variables
 
 This is the code and txt file to remove some variables in WRF. This txt file is used before `./real.exe` and included in `namelist.input` under the `time_control` section.
 
