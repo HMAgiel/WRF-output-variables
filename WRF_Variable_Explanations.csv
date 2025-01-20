@@ -1,0 +1,162 @@
+Variable,Description
+Times,Simulation time in YYYY-MM-DD_HH:mm:ss format.
+XLAT,Latitude at grid points.
+XLONG,Longitude at grid points.
+LU_INDEX,Land-use index.
+ZNU,Vertical levels (unstaggered).
+ZNW,Vertical levels (staggered).
+ZS,Model surface height.
+DZS,Vertical grid spacing.
+VAR_SSO,Variance of sub-grid-scale orography.
+BATHYMETRY_FLAG,Flag indicating if bathymetry is used.
+U,U-component of wind (X-direction).
+V,V-component of wind (Y-direction).
+W,W-component of wind (vertical).
+PH,Perturbation geopotential height.
+PHB,Base-state geopotential height.
+T,Perturbation potential temperature.
+THM,Moist potential temperature.
+HFX_FORCE,Sensible heat flux forcing.
+LH_FORCE,Latent heat flux forcing.
+TSK_FORCE,Skin temperature forcing.
+HFX_FORCE_TEND,Tendency of sensible heat flux forcing.
+LH_FORCE_TEND,Tendency of latent heat flux forcing.
+TSK_FORCE_TEND,Tendency of skin temperature forcing.
+MU,Perturbation dry air mass in the column.
+MUB,Base-state dry air mass in the column.
+NEST_POS,Nest position index.
+P,Perturbation pressure.
+PB,Base-state pressure.
+FNM,Non-dimensional pressure for upper-level (negative).
+FNP,Non-dimensional pressure for lower-level (positive).
+RDNW,Denominator of reference pressure levels (W-velocity staggered).
+RDN,Numerator of reference pressure levels (W-velocity staggered).
+DNW,Coefficient for full grid.
+DN,Coefficient for half grid.
+CFN,"Flag for idealized simulation (1 for yes, 0 for no)."
+CFN1,Hydrostatic pressure.
+THIS_IS_AN_IDEAL_RUN,2-meter water vapor mixing ratio.
+P_HYD,2-meter temperature.
+Q2,2-meter potential temperature.
+T2,Surface pressure.
+TH2,10-meter U-component of wind.
+PSFC,10-meter V-component of wind.
+U10,Grid spacing in X-direction (inverse).
+V10,Grid spacing in Y-direction (inverse).
+RDX,2D grid cell area.
+RDY,Grid spacing in X-direction (2D).
+AREA2D,Residual stress in sub-grid.
+DX2D,Top of the model domain (eta level).
+RESM,Coefficient 1 for full level in vertical coordinate.
+ZETATOP,Coefficient 2 for full level in vertical coordinate.
+CF1,Coefficient 3 for full level in vertical coordinate.
+CF2,Simulation time step.
+CF3,Elapsed time in minutes since simulation start.
+ITIMESTEP,Water vapor mixing ratio.
+XTIME,Cloud water mixing ratio.
+QVAPOR,Rain water mixing ratio.
+QCLOUD,Maximum shadow fraction.
+QRAIN,Minimum shadow fraction.
+SHDMAX,Average shadow fraction.
+SHDMIN,Snow albedo.
+SHDAVG,Soil temperature at various levels.
+SNOALB,Volumetric soil moisture.
+TSLB,Soil water content.
+SMOIS,Relative soil moisture.
+SH2O,Sea ice fraction.
+SMCREL,Ice thickness.
+SEAICE,Surface runoff.
+XICEM,Underground runoff.
+SFROFF,Vegetation type index.
+UDROFF,Soil type index.
+IVGTYP,Vegetation fraction.
+ISLTYP,Ground heat flux.
+VEGFRA,Accumulated ground heat flux.
+GRDFLX,Accumulated snowmelt.
+ACGRDFLX,Snow mass.
+ACSNOM,Snow depth.
+SNOW,Canopy water content.
+SNOWH,Skin sea surface temperature.
+CANWAT,Water depth.
+SSTSK,Cosine of solar zenith angle.
+WATER_DEPTH,Leaf area index.
+COSZEN,Variable data.
+LAI,Ozone data from GFS (Dobson units).
+VAR,Map scale factor (unstaggered grid).
+O3_GFS_DU,Map scale factor for U-grid.
+MAPFAC_M,Map scale factor for V-grid.
+MAPFAC_U,Map scale factor in X for unstaggered grid.
+MAPFAC_V,Map scale factor in Y for unstaggered grid.
+MAPFAC_MX,Map scale factor in X for U-grid.
+MAPFAC_MY,Map scale factor in Y for U-grid.
+MAPFAC_UX,Map scale factor in X for V-grid.
+MAPFAC_UY,Inverse map scale factor in X for V-grid.
+MAPFAC_VX,Map scale factor in Y for V-grid.
+MF_VX_INV,Coriolis parameter.
+MAPFAC_VY,Related Coriolis metric.
+F,Sine of map projection angle.
+E,Cosine of map projection angle.
+SINALPHA,Terrain height above mean sea level.
+COSALPHA,Skin temperature.
+HGT,Pressure at the top of the model domain.
+TSK,Flag for processed sub-grid-scale orography variance.
+P_TOP,Reference temperature for initialization.
+GOT_VAR_SSO,Reference pressure for initialization.
+T00,Tropopause level temperature profile.
+P00,Isothermal temperature profile.
+TLP,Tropopause-stratosphere level profile.
+TISO,Pressure at the base of the stratosphere.
+TLP_STRAT,Maximum U-component of stress.
+P_STRAT,Maximum V-component of stress.
+MAX_MSFTX,Accumulated convective rainfall.
+MAX_MSFTY,Accumulated shallow rainfall.
+RAINC,Accumulated non-convective rainfall.
+RAINSH,Non-convective snow accumulation.
+RAINNC,Non-convective graupel accumulation.
+SNOWNC,Non-convective hail accumulation.
+GRAUPELNC,Cloud fraction.
+HAILNC,Downward shortwave radiation.
+CLDFRA,Downward longwave radiation.
+SWDOWN,Surface shortwave radiation normalized to horizontal.
+GLW,Outgoing longwave radiation.
+SWNORM,Latitude for U-grid.
+OLR,Longitude for U-grid.
+XLAT_U,Latitude for V-grid.
+XLONG_U,Longitude for V-grid.
+XLAT_V,Surface albedo.
+XLONG_V,Cosine latitude.
+ALBEDO,Background albedo.
+CLAT,Surface emissivity.
+ALBBCK,Residual of Noah land-surface model.
+EMISS,Minimum surface temperature.
+NOAHRES,"Land-sea mask (1 for land, 0 for water)."
+TMN,Friction velocity.
+XLAND,Planetary boundary layer height.
+UST,Sensible heat flux.
+PBLH,Moisture flux at the surface.
+HFX,Latent heat flux.
+QFX,Accumulated sensible heat flux.
+LH,Accumulated latent heat flux.
+ACHFX,Snow cover fraction.
+ACLHF,Shortwave radiation reaching surface.
+SNOWC,Flag to save topographic data from preprocessing.
+SR,Random seed for SPPT perturbations.
+SAVE_TOPO_FROM_REAL,Random seed for SKEBS perturbations.
+ISEEDARR_SPPT,Random seed for random perturbations.
+ISEEDARR_SKEBS,Random seed for stochastic convection perturbations.
+ISEEDARR_RAND_PERTURB,Random seed for stochastic PBL perturbations.
+ISEEDARRAY_SPP_CONV,Random seed for stochastic LSM perturbations.
+ISEEDARRAY_SPP_PBL,Cloud fraction coefficient 1 (H grid).
+ISEEDARRAY_SPP_LSM,Cloud fraction coefficient 2 (H grid).
+C1H,Cloud fraction coefficient 1 (F grid).
+C2H,Cloud fraction coefficient 2 (F grid).
+C1F,Cloud fraction coefficient 3 (H grid).
+C2F,Cloud fraction coefficient 4 (H grid).
+C3H,Cloud fraction coefficient 3 (F grid).
+C4H,Cloud fraction coefficient 4 (F grid).
+C3F,Perturbation cloud base.
+C4F,Perturbation cloud.
+PCB,"Land mask (1 for land, 0 for water)."
+PC,"Lake mask (1 for lake, 0 for non-lake)."
+LANDMASK,Sea surface temperature.
+LAKEMASK,Input sea surface temperature.
