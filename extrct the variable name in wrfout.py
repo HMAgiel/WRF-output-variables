@@ -2,7 +2,7 @@ from netCDF4 import Dataset
 from wrf import getvar
 
 # Specify the path to your WRF output file
-wrfout_file = "wrfout_d01_2024-01-01_00:00:00"
+wrfout_file = "wrfout_d01_2024-01-01_00:00:00" #use the wrfoutput file
 
 # Specify the output text file path
 output_file = "variables_list.txt"
